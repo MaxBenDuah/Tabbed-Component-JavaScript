@@ -18,6 +18,7 @@ html {
   background: #fff;
   border: 1px solid #fff;
   position: relative;
+  box-shadow: 0 14px 12px rgba(0, 0, 0, 0.06);
 }
 
 .btn-container {
