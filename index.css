@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  color: #333;
+  background-color: #d1d5db;
+}
+
+.tabbed-container {
+  max-width: 120rem;
+  margin: 10rem auto;
+  background: #fff;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.btn-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+  padding: 1.2rem 3rem;
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.btn--1 {
+  background-color: #f59e0b;
+}
+.btn--2 {
+  background-color: #10b981;
+}
+.btn--3 {
+  background-color: #0284c7;
+}
+
+.active-btn {
+  transform: translate(0, -25%);
+}
+
+.content-container {
+  margin: 4.8rem;
+}
+
+.icon-container {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-1-cont {
+  background-color: #fde68a;
+}
+
+.icon-2-cont {
+  background-color: #a7f3d0;
+}
+
+.icon-3-cont {
+  background-color: #bae6fd;
+}
+
+.icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.icon-1 {
+  stroke: #f59e0b;
+}
+
+.icon-2 {
+  stroke: #10b981;
+}
+
+.icon-3 {
+  stroke: #0284c7;
+}
+
+.heading-primary {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 2rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/******************************/
+/* REUSABLE COMPONENTS */
+/******************************/
+.hide-content {
+  display: none;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.align-grid {
+  align-items: center;
+}
+
+.grid-col-2 {
+  grid-template-columns: 7em 1fr;
+}
+
+.grid-col {
+  grid-column: 2;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: end;
+}
