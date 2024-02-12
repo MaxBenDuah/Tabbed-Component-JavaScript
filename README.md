@@ -11,3 +11,19 @@ This JavaScript code creates a tabbed component using event delegation. It effic
 ![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-tabbedComponent-2.png?raw=true)
 
 ![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-tabbedComponent-3.png?raw=true)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/MaxBenDuah/Tabbed-Component-JavaScript.git
+```
+
+Navigate to the project directory
+
+```bash
+  cd Tabbed-Component-JavaScript
+```
+
+Open the project in your browser
